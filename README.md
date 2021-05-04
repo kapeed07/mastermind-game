@@ -9,3 +9,6 @@
  - A white peg indicates the existence of a correct color code peg placed in the wrong position.
 
  - More info on Wikipedia [(link)](https://en.wikipedia.org/wiki/Mastermind_(board_game))
+
+#### Links
+ - [(Click here to play)](https://db-mastermind.netlify.app/)
