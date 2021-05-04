@@ -108,9 +108,9 @@ function App() {
           </div>
 
           <div className={`ml-60 pt-20 play-area ${!gameStatus ? '' : 'event-none'}`}>
-            {moves.map((move, i) => <div key={i} className="flex">
+            {moves.map((move, i) => <div key={i} className={`flex ${i < level - 1 ? 'opacity-75' : ''}`}>
               <div className={`mb-14 items-center flex-center ${i !== level - 1 ? 'event-none' : ''}`}>
-                <p className="level ml-10 mr-30 weight-700 text-22 text-grey">{i + 1}</p>
+                <p className={`level ml-10 mr-30 weight-700 ${i === level - 1 ? 'text-26 text-black' : 'text-16 text-grey'}`}>{i + 1}</p>
                 <div className="items-center flex-center">
                   {move.map((m, c) => c < 4 && <div
                     key={c}
