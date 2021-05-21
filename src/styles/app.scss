@@ -70,6 +70,14 @@
   margin: 2px;
   cursor: pointer;
   border-radius: 50%;
+  
+}
+.pallet-solution {
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 50%;
 }
 
 .active {
@@ -115,6 +123,12 @@
   border-radius: 8px;
   padding: 10px;
   box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+}
+.solution-pallet {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,.1),0 4px 2px 0 rgba(0,0,0,.06);
 }
 .event-none {
   pointer-events: none;
