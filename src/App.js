@@ -105,15 +105,21 @@ function App() {
         {/* Game rules start */}
         <div className="text-14">
           <p className="mb-6">
-            Try to guess the pattern, in both order and color, within ten turns.
+             - So the game automatically selects 4 random colors (they can be all same, the can all be unique)
           </p>
           <p className="mb-6">
-            After submitting a row, a small black peg is placed for each code
-            peg from the guess which is correct in both color and position.
+             - you are given 10 chances to guess the color code
           </p>
           <p className="mb-6">
-            A white peg indicates the existence of a correct color code peg
-            placed in the wrong position. More info on{" "}
+             - when you fill a color row and click on check sign (✔️), it gives you a feedback
+          </p>
+          <p className="mb-6">
+                - dark circle -> guessed the correct color and it is on the correct position too.
+                - empty circle -> guessed the correct color but it is on the wrong position.
+                - cross circle -> guessed the wrong correct.
+          </p>
+          <p className="mb-6">
+            More info on{" "}
             <a
               className="text-purple"
               href="https://en.wikipedia.org/wiki/Mastermind_(board_game)"
